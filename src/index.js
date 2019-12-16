@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import TodoList from './pages/TodoList/TodoList';
+// import ColorBox from './pages/ColorBox/ColorBox';
+// import PropsBox1 from './pages/01props/PropsBox1';
+import Time from './pages/02time/time';
+// import LifeCycle from './pages/03lifeCycle/lifeCycle';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<Time />, document.getElementById('root'));
