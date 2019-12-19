@@ -11,7 +11,7 @@ class TodoItem extends React.Component {
   render() {
     const content = this.props
     return (
-      <div onClick={this.handelDel.bind(this)}>{content.item}:{content.children}</div>
+      <li onClick={this.handelDel.bind(this)}>{content.item}:{content.children}</li>
     )
   }
 }
