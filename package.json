@@ -8,7 +8,8 @@
     "postcss-px2rem": "^0.3.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "sass-resources-loader": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +32,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://store-dev.zmjubao.com"
+  "proxy": "http://store-dev.zmjubao.com",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
 }

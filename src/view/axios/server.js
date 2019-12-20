@@ -8,7 +8,7 @@ let noTip = false// 是否提示错误信息
 // request interceptor
 service.interceptors.request.use(
   config => {
-    console.log(config)
+    // console.log(config)
     if (config.headers) {
       config.headers['token'] = localStorage.getItem('token')
     } else {
