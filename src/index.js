@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { getFn, postFn } from './view/axios/http'
+import { getFn, postFn } from './axios/http'
 import 'lib-flexible'
 React.Component.prototype.$get = getFn;
 React.Component.prototype.$post = postFn;
