@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+
+import 'antd-mobile/dist/antd-mobile.css';
 import './App.css';
 import './App.scss';
 // import { postFn } from './view/axios/http'
@@ -42,6 +44,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
+
           <div className="box"></div>
           <h2>Hello World</h2>
           <img src={logo} className="App-logo" alt="logo" /></header>
