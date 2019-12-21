@@ -1,4 +1,15 @@
 .App {
+  .box {
+    background: $mainColor;
+    width: 20%;
+    height: 50px;
+  }
+
+  .ant-btn-primary {
+    background: $mainColor;
+    border-color: $mainColor;
+  }
+
   h2 {
     color: $mainColor
   }
