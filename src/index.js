@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { getFn, postFn } from './axios/http'
-import 'lib-flexible'
+// import 'lib-flexible'
 React.Component.prototype.$get = getFn;
 React.Component.prototype.$post = postFn;
 ReactDOM.render(<App />, document.getElementById('root'));

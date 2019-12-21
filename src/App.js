@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import { DatePicker } from 'antd';
+import 'antd/dist/antd.css';
+// import 'antd/es/date-picker/style/css';
 import './App.css';
 import './App.scss';
 // import { postFn } from './view/axios/http'
@@ -42,12 +45,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
+
           <div className="box"></div>
+          <DatePicker />
           <h2>Hello World</h2>
           <img src={logo} className="App-logo" alt="logo" /></header>
 
       </div>
-
     )
   }
 }
